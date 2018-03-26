@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Feature01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="56" cy="56" r="56"></circle>
+        <filter x="-37.5%" y="-30.0%" width="175.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M24,32 L80,32 L80,71 L88,71 L88,108 C88,110.209139 86.209139,112 84,112 L28,112 C25.790861,112 24,110.209139 24,108 L24,32 Z" id="path-4"></path>
+        <filter x="-0.8%" y="-0.6%" width="103.1%" height="101.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.368627451   0 0 0 0 0.71372549  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M80,71 L88,71 L88,108 C88,110.209139 86.209139,112 84,112 L84,112 C81.790861,112 80,110.209139 80,108 L80,71 Z" id="path-6"></path>
+        <filter x="-6.3%" y="-1.2%" width="112.5%" height="102.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.168627451   0 0 0 0 0.368627451   0 0 0 0 0.71372549  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="32" y="40" width="40" height="27"></rect>
+    </defs>
+    <g id="Vectors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Feature01">
+            <g id="icon">
+                <g id="Group-4">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval-13" fill="#5C8CDE" xlink:href="#path-1"></use>
+                    <path d="M28,40 L84,40 L84,79 L92,79 L92,116 C92,118.209139 90.209139,120 88,120 L32,120 C29.790861,120 28,118.209139 28,116 L28,40 Z" id="Rectangle-21" fill="#333333" opacity="0.300000012" style="mix-blend-mode: hard-light;" filter="url(#filter-3)" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Rectangle-21">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="#7AA3EA" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <g id="Rectangle-21">
+                    <use fill="#4D7FD5" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use fill="#2B5EB6" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                </g>
+                <path d="M56,97 L72,97 L72,99 L56,99 L56,97 Z M32,85 L48,85 L48,87 L32,87 L32,85 Z M32,89 L48,89 L48,91 L32,91 L32,89 Z M32,93 L48,93 L48,95 L32,95 L32,93 Z M32,97 L48,97 L48,99 L32,99 L32,97 Z M32,101 L48,101 L48,103 L32,103 L32,101 Z M56,85 L72,85 L72,87 L56,87 L56,85 Z M56,89 L72,89 L72,91 L56,91 L56,89 Z M56,93 L72,93 L72,95 L56,95 L56,93 Z M56,101 L72,101 L72,103 L56,103 L56,101 Z M32,75 L64,75 L64,77 L32,77 L32,75 Z M32,71 L72,71 L72,73 L32,73 L32,71 Z" id="Rectangle-22-Copy-2" fill="#98B6EA"></path>
+                <g id="Path">
+                    <use fill="#98B6EA" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#FFE578" stroke-width="2" x="33" y="41" width="38" height="25"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
